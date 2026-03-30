@@ -3,7 +3,7 @@ import java.util.*;
 
 //отладочный класс
 class Debugger {
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     public static void log(String message) {
         if (DEBUG) {
